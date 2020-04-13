@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "compile": "node scripts/compile.js",
+    "pretest": "npm run compile",
+    "test": "mocha tests/",
+    "predeploy": "node run test",
+    "deploy": "node scripts/deploy.js",
+    "dev": "node server.js",
+    "build": "next build",
+    "prestart": "npm run build",
+    "start": "pm2 restart pm2.json"
+  },
+  "dependencies": {
+    "@material-ui/core": "^1.1.0",
+    "config": "^1.30.0",
+    "fs-extra": "^6.0.1",
+    "human-standard-token-abi": "^1.0.2",
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "solc": "^0.4.24",
+    "truffle-hdwallet-provider": "1.0.17",
+    "web3": "1.0.0-beta.34"
+
+  }
+}
