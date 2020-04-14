@@ -1,12 +1,17 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
 import withRoot from '../libs/withRoot';
+import Layout from '../components/Layout'
 
 class Index extends React.Component {
   render() {
-    return <Button variant="raised" color="primary">
-      Welcome to Ethereum DApp!
-    </Button>
+    return (
+      <Layout>
+        <Button variant="raised" color="primary">
+          Welocome to DApp!
+        </Button>
+      </Layout>
+    );
   }
 }
 
