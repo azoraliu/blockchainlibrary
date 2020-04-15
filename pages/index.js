@@ -7,7 +7,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Button variant="raised" color="primary">
+        <Button variant="contained" color="primary">
           Welocome to DApp!
         </Button>
       </Layout>

@@ -43,7 +43,7 @@ class Header extends React.Component {
                 </Typography>
               </a>
             </p>
-            <Button variant="raised" color="primary">
+            <Button variant="contained" color="primary">
               发起项目
             </Button>
           </Toolbar>
